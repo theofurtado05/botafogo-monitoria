@@ -7,3 +7,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media screen and (min-width: 770px){
+    /*tablet*/
+}
+
+@media screen and (min-width: 1024px){
+    /*desktop*/
+}
