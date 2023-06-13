@@ -1,0 +1,9 @@
+#elenco-feminino{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#elenco-masculino{
+    display: flex;
+    flex-wrap: wrap;
+}
