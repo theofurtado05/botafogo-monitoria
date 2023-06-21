@@ -1,0 +1,41 @@
+*{
+    background-color: black;
+    color: white;
+}
+#detalhes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: -20px;
+}
+
+img{
+    width: 250px;
+}
+
+.informacoes{
+    text-align: left;
+}
+
+#div-informacoes{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#voltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div-voltar{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+ 
+}

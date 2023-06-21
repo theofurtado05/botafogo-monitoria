@@ -16,9 +16,9 @@ const carregarJogadores = () => {
         if(jogador["elenco"] == "feminino"){
             elencoFeminino.innerHTML += `
 
-            <div id="jogador${indice}" onclick="salvarInformacoes(${indice})">
-                <h1>${jogador["nome"]}</h1>
+            <div class="jogador" id="jogador${indice}" onclick="salvarInformacoes(${indice})">
                 <img src="${jogador["imagem"]}">
+                <span>${jogador["nome"]}</span>
             </div>
     
             `;
@@ -26,9 +26,10 @@ const carregarJogadores = () => {
         } else {
             elencoMasculino.innerHTML += `
 
-            <div id="jogador${indice}" onclick="salvarInformacoes(${indice})">
-                <h1>${jogador["nome"]}</h1>
+            <div class="jogador" id="jogador${indice}" onclick="salvarInformacoes(${indice})">
+              
                 <img src="${jogador["imagem"]}">
+                <span>${jogador["nome"]}</span>
             </div>
     
             `;
